@@ -11,11 +11,7 @@ ZanToken is an ERC20 token implemented in Solidity. This project includes the im
 - [Project Structure](#project-structure)
 - [License](#license)
 
-## Installation
-
 ### Prerequisites
-
-- Node.js and npm
 - [Foundry](https://getfoundry.sh/) (a fast, portable, and modular toolkit for Ethereum application development written in Rust)
 
 ### Clone the Repository
@@ -40,17 +36,17 @@ The tests are written using Foundry's forge-std library. The tests include vario
 Run tests using ```forge test```
 
 - Test Descriptions
-* testInitialSupply: Verifies the initial supply of tokens.
-* testUsersCantMint: Ensures that only authorized users can mint tokens.
-* testAllowances: Tests the allowance mechanism of the ERC20 token.
-* testTransfers: Validates the transfer functionality.
-* testInsufficientBalanceTransfers: Ensures transfers with insufficient balance are reverted.
-* testApproveAndTransferFrom: Tests the approve and transferFrom functionality.
-* testApproveZeroAllowance: Checks the behavior when allowance is set to zero.
-* testIncreaseAllowance: Tests the increaseAllowance function.
-* testDecreaseAllowance: Tests the decreaseAllowance function.
-* testTransferToZeroAddress: Ensures transfers to the zero address are reverted.
-* testTransferFromToZeroAddress: Ensures transferFrom to the zero address is reverted.
+    * testInitialSupply: Verifies the initial supply of tokens.
+    * testUsersCantMint: Ensures that only authorized users can mint tokens.
+    * testAllowances: Tests the allowance mechanism of the ERC20 token.
+    * testTransfers: Validates the transfer functionality.
+    * testInsufficientBalanceTransfers: Ensures transfers with insufficient balance are reverted.
+    * testApproveAndTransferFrom: Tests the approve and transferFrom functionality.
+    * testApproveZeroAllowance: Checks the behavior when allowance is set to zero.
+    * testIncreaseAllowance: Tests the increaseAllowance function.
+    * testDecreaseAllowance: Tests the decreaseAllowance function.
+    * testTransferToZeroAddress: Ensures transfers to the zero address are reverted.
+    * testTransferFromToZeroAddress: Ensures transferFrom to the zero address is reverted.
 
 ## Project Structure
 - src: Contains the main Solidity smart contracts.
