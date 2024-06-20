@@ -11,8 +11,8 @@ ZanToken is an ERC20 token implemented in Solidity. This project includes the im
 - [Project Structure](#project-structure)
 - [License](#license)
 
-##Installation
 
+###Installation
 ### Prerequisites
 - [Foundry](https://getfoundry.sh/) (a fast, portable, and modular toolkit for Ethereum application development written in Rust)
 
